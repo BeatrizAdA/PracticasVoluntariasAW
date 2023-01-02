@@ -1,0 +1,116 @@
+body {
+    background: url("./img/fondo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(216, 194, 174);
+}
+
+.contenedor {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    height: 6em;
+    background-color: rgb(186, 145, 95);
+}
+
+.logo,
+.nombre,
+.desconectar,
+.etiqueta,
+.eliminar,
+.añadir {
+    border: 1px solid black;
+}
+
+h1 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 3vw;
+    text-align: center;
+}
+
+.nombre {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+h5 {
+    margin-bottom: 0;
+}
+
+.nombre>*,
+.desconectar>* {
+    padding: 0;
+}
+
+img {
+    width: 5em;
+    height: 5em;
+    border: 1px solid black;
+}
+
+.cabecera {
+    margin: 0.5em;
+}
+
+li {
+    border: 1px solid black;
+    margin-top: 1em;
+    padding: 2em;
+    list-style: none;
+    background-color: rgb(238, 200, 154);
+    box-shadow: 3px 3px 0 rgb(216, 215, 215), 7px 7px 3px rgb(154, 153, 153), 13px 13px 9px rgb(111, 111, 111);
+}
+
+a {
+    text-decoration: none !important;
+    color: black;
+}
+
+.finalizar {
+    float: right;
+    border: 1px solid black;
+    padding: 0.3em;
+    background-color: rgb(193, 246, 193);
+}
+
+.etiqueta {
+    margin: 0.5em;
+    padding: 0.2em;
+    background-color: rgb(60, 60, 60);
+    color: white;
+    font-family: 'Allan', cursive;
+}
+
+.eliminar,
+.añadir {
+    padding: 0.5em;
+    background-color: rgb(216, 101, 101);
+}
+
+.botonEliminar {
+    margin-bottom: 2em;
+    margin-right: 6vw;
+}
+
+a:hover {
+    background-color: beige;
+    color: black;
+}
+
+.tareas {
+    padding-top: 7em;
+    width: 50%;
+    margin: auto;
+}
+
+.botones {
+    width: 40%;
+    margin: auto;
+    margin-top: 1em;
+    text-align: center;
+}

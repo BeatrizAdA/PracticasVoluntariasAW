@@ -1,0 +1,40 @@
+.imagen,
+.usuario,
+a {
+    display: none;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+.noFinalizado::after {
+    content: ":";
+}
+
+.noFinalizado,
+#finalizado {
+    font-weight: bold;
+}
+
+.etiqueta::before {
+    content: "(";
+}
+
+.etiqueta::after {
+    content: ")";
+}
+
+#finalizado {
+    margin-left: 1em;
+}
+
+h1 {
+    font-family: Helvetica;
+    font-size: 18px;
+}
+
+.listaTareas {
+    font-family: Helvetica;
+    font-size: 12px;
+}
